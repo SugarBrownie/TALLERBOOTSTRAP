@@ -1,0 +1,78 @@
+.carousel-caption {
+    display: flex;
+    flex-direction: column;  /* Alinea los elementos a la izquierda */
+    align-items: flex-start;
+    justify-content: flex-start;  /* Empieza desde arriba */
+    height: 40%;
+    width: 50%;  /* Asegura que el caption ocupe todo el alto del contenedor */
+    left: 0;
+    bottom:0;
+    padding-left: 0px;  /* Añade algo de padding a la izquierda */
+}
+
+.werobotlogo {
+    max-width: 50%;
+    margin-bottom: 10px;
+}
+
+.botones {
+    max-width: 30%;
+    background-color: #f5f5f5; 
+    color: #333; 
+    left: 0;
+    border: none;
+    border-radius: 8px; 
+    padding: 12px 24px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.texto_segundo_carrusel{
+        
+}
+
+.image-container{
+
+
+    position: relative;
+
+
+}
+
+.imagenLista {
+    max-width: 100%;    
+    height: auto;
+    display: block; 
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-top: 1%;
+    border-radius: 100px;
+    position: relative;
+
+}
+
+.imagenListaColum1{
+    max-width: 100%;    
+    height: auto;
+    display: block; 
+    padding-left: 15%;
+
+    padding-top: 2%;
+    position: relative;
+}
+
+.imagenListaColum2{
+    max-width: 100%;    
+    height: auto;
+    display: block; 
+    padding-right: 15%;
+    padding-top: 2%;
+    position: relative;
+}
+
+
+
+
